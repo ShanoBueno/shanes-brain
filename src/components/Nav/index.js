@@ -6,24 +6,30 @@ function Nav(){
 <header>
   <h2>
     <a href="/">
-      <span role="img" aria-label="camera"> 📸</span> Oh Snap!
+      Shane's Brain
     </a>
   </h2>
   <nav>
     <ul className="flex-row">
       <li className="mx-2">
         <a href="#about">
-          About me
+          About Me
         </a>
       </li>
       <li className="mx-1">
-        <span>Porfolio</span>
+            <a href="#projects">
+              Projects
+            </a>
       </li>
       <li className = "mx-1">
-        <span>Contact</span>
+            <a href="#contact">
+              Contact
+            </a>
       </li>
       <li className = "mx-1">
-        <span>Resume</span>
+            <a href="#Resume">
+              Resume
+            </a>
       </li>
     </ul>
   </nav>

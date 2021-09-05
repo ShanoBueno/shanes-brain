@@ -1,11 +1,10 @@
-
 main {
 	margin: 0 auto;
 	max-width: 90%;
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary:white;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
@@ -15,6 +14,13 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 
 }
 
@@ -35,8 +41,8 @@ body {
   font-size: 18px;
   letter-spacing: .1em;
   background: var(--dark);
-  color: var(--light);
-  font-family: 'Poiret One', cursive;
+  color: white;
+  font-family: 'Poiret One';
 
 }
 
@@ -58,10 +64,18 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  text-align: center;
+  border-bottom: gray; 
+  border-bottom-width: 6px;
+  border-bottom-style:ridge;
+  background-color: gray; 
+
+
 }
 
 h3 {
   font-size: 1.75rem;
+  text-align: center; 
 }
 
 h4 {
@@ -120,9 +134,6 @@ button[disabled] {
   opacity: .8;
 }
 
-img {
-  max-width: 100%;
-}
 
 span[role="img"] {
   cursor: default;
@@ -181,14 +192,36 @@ textarea {
   justify-content: space-between;
 }
 
+
+h3 {
+  background-color: black
+}
+
+span {
+  background-color: black; 
+}
 .flex-end {
   justify-content: flex-end;
 }
+.NYTimes {
+  background-image: url(https://www.worthingtonlibraries.org/sites/default/files/styles/large/public/images/databases/new_york_times_historical_newspapers.jpg?itok=nUDEj9G2);
+  height: 200px;
+  width: 100%; 
+  background-color: black; 
+
+};
+
+.Readyou {
+  background-image: url(http://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/books.png);
+  height: 200px; 
+  background-color: black; 
+}
+
 
 .mx-1 {
   margin-right: var(--spacing-one);
   margin-left: var(--spacing-one);
-}
+};
 
 .mx-2 {
   margin-right: var(--spacing-two);
@@ -208,7 +241,9 @@ textarea {
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
+
 }
+
 
 .px-1 {
   padding-right: var(--spacing-one);
@@ -261,6 +296,7 @@ textarea {
 	padding: 15px;
 	width: 960px;
 }
+
 
 .modalTitle {
 	font-size: 18px;
