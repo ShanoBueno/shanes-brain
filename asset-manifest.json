@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shanesbrain/static/css/main.db36ca73.chunk.css",
+    "main.js": "/shanesbrain/static/js/main.59b6da2a.chunk.js",
+    "main.js.map": "/shanesbrain/static/js/main.59b6da2a.chunk.js.map",
+    "runtime-main.js": "/shanesbrain/static/js/runtime-main.55e40b50.js",
+    "runtime-main.js.map": "/shanesbrain/static/js/runtime-main.55e40b50.js.map",
+    "static/js/2.cc0943ea.chunk.js": "/shanesbrain/static/js/2.cc0943ea.chunk.js",
+    "static/js/2.cc0943ea.chunk.js.map": "/shanesbrain/static/js/2.cc0943ea.chunk.js.map",
+    "static/js/3.3ce64a44.chunk.js": "/shanesbrain/static/js/3.3ce64a44.chunk.js",
+    "static/js/3.3ce64a44.chunk.js.map": "/shanesbrain/static/js/3.3ce64a44.chunk.js.map",
+    "index.html": "/shanesbrain/index.html",
+    "static/css/main.db36ca73.chunk.css.map": "/shanesbrain/static/css/main.db36ca73.chunk.css.map",
+    "static/js/2.cc0943ea.chunk.js.LICENSE.txt": "/shanesbrain/static/js/2.cc0943ea.chunk.js.LICENSE.txt",
+    "static/media/resume.22b60fb1.png": "/shanesbrain/static/media/resume.22b60fb1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55e40b50.js",
+    "static/js/2.cc0943ea.chunk.js",
+    "static/css/main.db36ca73.chunk.css",
+    "static/js/main.59b6da2a.chunk.js"
+  ]
+}
